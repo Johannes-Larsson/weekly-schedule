@@ -8,7 +8,7 @@ A node app for keeping a weekly recurring schedule, for example who's turn it is
 
 ## Setup
 #### config.json
-Enter appropriate settings in the config.json file. "message" is the message displayed on the index page. "adminPass" is a password for the admin page. If you want the password to be required, set "requirePass" to true. "title" is the title of the actual page (html tag <title> in <head>).
+Enter appropriate settings in the config.json file. "message" is the message displayed on the index page. "adminPass" is a password for the admin page. If you want the password to be required, set "requirePass" to true. "title" is the title of the actual page (html tag title in head).
 
 #### The schedule
 To change the schedule, go to the /admin page.
