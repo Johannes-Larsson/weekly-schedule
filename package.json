@@ -1,0 +1,23 @@
+{
+  "name": "weekly-schedule",
+  "version": "1.0.0",
+  "description": "Keep a recurring weekly schedule.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weekly",
+    "recurring",
+    "schedule",
+    "information"
+  ],
+  "author": "Johannes Larsson <developer.johannes.larsson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "sqlite3": "^3.1.4"
+  }
+}

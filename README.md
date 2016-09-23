@@ -1,2 +1,13 @@
 # weekly-schedule
 A node app for keeping a weekly recurring schedule, for example who's turn it is to empty the dishwasher.
+
+## Installation
+  git clone https://github.com/Johannes-Larsson/weekly-schedule.git
+  npm i
+
+## Setup
+Enter appropriate settings in the config.json file. "message" is the message displayed on the index page. "adminPass" is a password for the admin page. If you want the password to be required, set "requirePass" to true.
+
+To change the schedule, go to the /admin page.
+
+If you want the admin page to be a different language than english, you can edit the "language.json" file appropriately. ("day" is the header, "days" are names of the days in the week, starting with sunday.)
