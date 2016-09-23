@@ -28,13 +28,13 @@ db.serialize(function() {
 
 app.get('/', function (req, res) {
   sch.getTodaysData(db, function (data) {
-    res.render('index', { person: data, message: config.message });
+    res.render('index', { person: data, message: config.message, title: config.title });
   });
 });
 
 app.get('/admin', function (req, res) {
   sch.getData(db, function (data) {
-    res.render('admin', { sch: data, days: language.days, header: language.day, requirePass: config.requirePass });
+    res.render('admin', { sch: data, days: language.days, header: language.day, requirePass: config.requirePass, title: config.title });
   })
 });
 

@@ -1,6 +1,7 @@
 {
   "message": "should update the message today",
-  "port": 1234,
+  "port": 1235,
   "requirePass": true,
-  "adminPass": ""
+  "adminPass": "",
+  "title": "Schedule"
 }
