@@ -3,6 +3,7 @@ A node app for keeping a weekly recurring schedule, for example who's turn it is
 
 ## Installation
     git clone https://github.com/Johannes-Larsson/weekly-schedule.git
+    cd weekly-schedule
     npm i
 
 ## Setup
